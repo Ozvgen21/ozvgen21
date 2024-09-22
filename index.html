@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project001</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="media/profile.jpg" class="img">
+    </div>
+    <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <button class="fa fa-search"></button>
+    </div>
+  </div>
+  
+  
+  <div class="picture">
+    <img src="media/profile.jpg" class="img2">
+  </div>
+  
+  <div class="main">
+    <div class="top">
+      <article>
+        <h1>REZA RAMDANI</h1>
+        <p>
+          I am an Informatics student with a strong interest in web development and graphic design. I have experience in using HTML, CSS, and FRAMEWORKS to create website base on mobile.
+        </p>
+      </article>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="grid-item"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="grid-item"><img src="image3.jpg" alt="Image 3"></div>
+    </div>
+    <div class="grid-container2">
+      <div class="progress-circle1">
+          <span>80%</span>
+          <p class="tag-progress">HTML</p>
+        </div>
+        <div class="progress-circle2">
+          <span>70%</span>
+          <p class="tag-progress">CSS</p>
+        </div>
+        <div class="progress-circle3">
+          <span>50%</span>
+          <p class="tag-progress">FW</p>
+        </div>
+    </div>
+  </div>
+  
+<audio id="myAudio">
+        <source src="media/backsound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+</audio>
+    
+<div id="nameModal" class="modal">
+<div class="modal-content">
+  <p>Masukkan nama Anda:</p>
+  <input type="text" id="nameInput" placeholder="Nama Anda">
+  <button class="button" id="submitName">Submit</button>
+</div>
+</div>
+
+<!-- Notifikasi selamat datang -->
+<div id="welcomeMessage" style="display:none; text-align:center; margin-top:20px;">
+  <h1 id="welcomeText"></h1>
+</div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
