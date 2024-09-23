@@ -246,7 +246,7 @@ p {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 828px) {
   body {
   background-image: url(media/bg.jpg);
     font-size: 15pt;
