@@ -246,9 +246,9 @@ p {
 }
 
 /* Media Queries */
-@media (max-width: 828px) {
+@media (max-width: 480px) {
   body {
-  background-image: url(media/bg.jpg);
+  background-image: url(bg.jpg);
     font-size: 15pt;
     font-family: Oswald;
 }
@@ -497,7 +497,7 @@ p {
 
 @media (min-width: 1024px) {
   body {
-  background-image: url(media/bg.jpg);
+  background-image: url(bg.jpg);
     font-size: 15pt;
     font-family: Oswald;
 }
